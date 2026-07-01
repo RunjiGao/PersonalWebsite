@@ -1,66 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>About | Runji Gao</title>
+  <title>Runji Gao | About</title>
   <link rel="stylesheet" href="assets/css/style.css" />
 </head>
-
 <body>
-  <header class="navbar">
-    <div class="container nav-content">
+  <header class="site-header">
+    <nav class="navbar">
       <a class="logo" href="index.html">Runji Gao</a>
-      <nav>
+      <div class="nav-links">
         <a href="index.html">Home</a>
-        <a href="about.html">About</a>
+        <a class="active" href="about.html">About</a>
         <a href="research.html">Research</a>
         <a href="publications.html">Publications</a>
         <a href="cv.html">CV</a>
         <a href="contact.html">Contact</a>
-      </nav>
-    </div>
+      </div>
+    </nav>
   </header>
 
-  <main class="container">
-    <section class="page-header">
+  <main>
+    <section class="page-title">
       <h1>About</h1>
-      <p class="lead">Use this page to tell your academic story: your background, training, and what motivates your
-        research.</p>
+      <p>A brief overview of my academic background, research journey, and methodological training.</p>
     </section>
 
-    <section class="section">
+    <section class="section card">
       <h2>About Me</h2>
-      <p>Placeholder: Write a 1–2 paragraph narrative about who you are, your academic journey, and your current
-        research direction.</p>
+      <p>
+        I am a Statistics M.A. student at Columbia University with a background in Economics, Data Science, and Psychology from New York University. My research interests center on how people make decisions, respond to social information, and interact with digital environments.
+      </p>
+      <p>
+        Across multiple research labs, I have worked on projects involving behavioral economics, social psychology, climate communication, and computational behavioral science. I am especially interested in combining experimental methods with statistical and computational tools to study human behavior.
+      </p>
     </section>
 
     <section class="section">
       <h2>Education</h2>
-      <div class="timeline-item">
-        <h3>Columbia University</h3>
-        <p class="meta">M.A. Statistics | 2025–2026</p>
-        <p>Placeholder: Add relevant coursework, research training, or academic focus.</p>
-      </div>
-      <div class="timeline-item">
-        <h3>New York University</h3>
-        <p class="meta">B.A. Economics and Data Science; Minor in Psychology | 2021–2025</p>
-        <p>Placeholder: Add honors, coursework, thesis, or academic highlights.</p>
+      <div class="grid two">
+        <div class="card">
+          <h3>Columbia University</h3>
+          <p class="meta">M.A. in Statistics | 2025–2026</p>
+          <p>Relevant coursework includes computational psychology, probability, linear regression, and statistical computation.</p>
+        </div>
+        <div class="card">
+          <h3>New York University</h3>
+          <p class="meta">B.A. in Economics and Data Science; Minor in Psychology | 2021–2025</p>
+          <p>Training in economics, data science, causal inference, psychology, econometrics, machine learning, and statistics.</p>
+        </div>
       </div>
     </section>
 
     <section class="section">
       <h2>Skills</h2>
-      <span class="tag">Python</span><span class="tag">R</span><span class="tag">Qualtrics</span><span
-        class="tag">Machine Learning</span><span class="tag">Experimental Design</span><span class="tag">Data
-        Visualization</span>
+      <div class="grid three">
+        <div class="card">
+          <h3>Research Methods</h3>
+          <p>Experimental design, survey research, behavioral data analysis, statistical modeling.</p>
+        </div>
+        <div class="card">
+          <h3>Programming</h3>
+          <p>Python, R, Java, JavaScript, HTML.</p>
+        </div>
+        <div class="card">
+          <h3>Data Science</h3>
+          <p>Machine learning, natural language processing, data visualization, statistical computing.</p>
+        </div>
+      </div>
     </section>
   </main>
 
   <footer class="footer">
-    <div class="container">© 2026 Runji Gao.</div>
+    <p>© 2026 Runji Gao. All rights reserved.</p>
   </footer>
 </body>
-
 </html>

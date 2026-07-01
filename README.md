@@ -1,21 +1,26 @@
 # Runji Gao Personal Website
 
-This is a simple GitHub Pages personal website template.
-
-## How to use
-
-1. Upload all files and folders to your GitHub repository.
-2. Keep `index.html` in the root folder.
-3. Edit text placeholders in each HTML file.
-4. Add your profile photo to `assets/images/`.
-5. Add your CV PDF to `assets/files/` and update the link in `cv.html`.
-6. Commit changes and refresh your GitHub Pages website.
+This is a simple academic personal website for GitHub Pages.
 
 ## Pages
 
 - Home: `index.html`
 - About: `about.html`
 - Research: `research.html`
-- Projects: `projects.html`
+- Publications: `publications.html`
 - CV: `cv.html`
 - Contact: `contact.html`
+
+## How to update
+
+1. Edit the text inside each HTML file.
+2. Keep the navigation bar the same across all pages.
+3. Put your CV PDF in `assets/files/` and name it `Runji_Gao_CV.pdf`.
+4. Put images in `assets/images/`.
+5. Commit changes to GitHub.
+
+## Shared style
+
+All pages use one CSS file:
+
+`assets/css/style.css`
